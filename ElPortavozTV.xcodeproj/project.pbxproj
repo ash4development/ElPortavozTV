@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7061A052C1D817B005EA23E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7061A042C1D817B005EA23E /* AppDelegate.swift */; };
+		C7061A0A2C1D817B005EA23E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C7061A092C1D817B005EA23E /* Base */; };
+		C7061A0C2C1D817C005EA23E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7061A0B2C1D817C005EA23E /* Assets.xcassets */; };
+		C7061A0F2C1D817C005EA23E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C7061A0E2C1D817C005EA23E /* Base */; };
+		C7061A1B2C1D828D005EA23E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7061A152C1D828D005EA23E /* BaseViewController.swift */; };
+		C7061A1C2C1D828D005EA23E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7061A162C1D828D005EA23E /* Extensions.swift */; };
+		C7061A1E2C1D828D005EA23E /* CollectionViewSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7061A182C1D828D005EA23E /* CollectionViewSelectionDelegate.swift */; };
+		C7061A1F2C1D828D005EA23E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7061A192C1D828D005EA23E /* NetworkManager.swift */; };
+		C7061A202C1D828D005EA23E /* FeedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7061A1A2C1D828D005EA23E /* FeedModels.swift */; };
+		C7061A232C1D847C005EA23E /* GlobalModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7061A222C1D847C005EA23E /* GlobalModels.swift */; };
+		C7061A252C1D84B5005EA23E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7061A242C1D84B5005EA23E /* HomeViewController.swift */; };
+		C7061A272C1D856D005EA23E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7061A262C1D856D005EA23E /* HomeViewModel.swift */; };
+		C7061A342C1D85C3005EA23E /* DisplayableCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7061A282C1D85C3005EA23E /* DisplayableCollectionView.swift */; };
+		C7061A382C1D85C3005EA23E /* HomeSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7061A2C2C1D85C3005EA23E /* HomeSectionCell.swift */; };
+		C7061A3A2C1D85C3005EA23E /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7061A2E2C1D85C3005EA23E /* ImageCollectionCell.swift */; };
+		C7061A3C2C1D85C3005EA23E /* SectionedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7061A302C1D85C3005EA23E /* SectionedList.swift */; };
+		C7061A3E2C1D85C3005EA23E /* SeriesEpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7061A322C1D85C3005EA23E /* SeriesEpisodeCell.swift */; };
+		CD93BA19F5BCF767A9461532 /* Pods_ElPortavozTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C717657A16BE4E417FB24F81 /* Pods_ElPortavozTV.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69CE4E8D820954058604D0CE /* Pods-ElPortavozTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElPortavozTV.release.xcconfig"; path = "Target Support Files/Pods-ElPortavozTV/Pods-ElPortavozTV.release.xcconfig"; sourceTree = "<group>"; };
+		8E9509B65A1420032CEE4181 /* Pods-ElPortavozTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElPortavozTV.debug.xcconfig"; path = "Target Support Files/Pods-ElPortavozTV/Pods-ElPortavozTV.debug.xcconfig"; sourceTree = "<group>"; };
+		C7061A012C1D817B005EA23E /* ElPortavozTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElPortavozTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7061A042C1D817B005EA23E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7061A092C1D817B005EA23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7061A0B2C1D817C005EA23E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7061A0E2C1D817C005EA23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7061A152C1D828D005EA23E /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C7061A162C1D828D005EA23E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C7061A182C1D828D005EA23E /* CollectionViewSelectionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewSelectionDelegate.swift; sourceTree = "<group>"; };
+		C7061A192C1D828D005EA23E /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C7061A1A2C1D828D005EA23E /* FeedModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedModels.swift; sourceTree = "<group>"; };
+		C7061A222C1D847C005EA23E /* GlobalModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalModels.swift; sourceTree = "<group>"; };
+		C7061A242C1D84B5005EA23E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C7061A262C1D856D005EA23E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C7061A282C1D85C3005EA23E /* DisplayableCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayableCollectionView.swift; sourceTree = "<group>"; };
+		C7061A2C2C1D85C3005EA23E /* HomeSectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSectionCell.swift; sourceTree = "<group>"; };
+		C7061A2E2C1D85C3005EA23E /* ImageCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionCell.swift; sourceTree = "<group>"; };
+		C7061A302C1D85C3005EA23E /* SectionedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionedList.swift; sourceTree = "<group>"; };
+		C7061A322C1D85C3005EA23E /* SeriesEpisodeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesEpisodeCell.swift; sourceTree = "<group>"; };
+		C717657A16BE4E417FB24F81 /* Pods_ElPortavozTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElPortavozTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C70619FE2C1D817B005EA23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD93BA19F5BCF767A9461532 /* Pods_ElPortavozTV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C70619F82C1D817B005EA23E = {
+			isa = PBXGroup;
+			children = (
+				C7061A032C1D817B005EA23E /* ElPortavozTV */,
+				C7061A022C1D817B005EA23E /* Products */,
+				C75CEFDD979DA957D3E52AC9 /* Pods */,
+				DD140F2837F27423C3F52CE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7061A022C1D817B005EA23E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7061A012C1D817B005EA23E /* ElPortavozTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7061A032C1D817B005EA23E /* ElPortavozTV */ = {
+			isa = PBXGroup;
+			children = (
+				C7061A042C1D817B005EA23E /* AppDelegate.swift */,
+				C7061A332C1D85C3005EA23E /* Reusables */,
+				C7061A212C1D8293005EA23E /* Utils */,
+				C7061A242C1D84B5005EA23E /* HomeViewController.swift */,
+				C7061A262C1D856D005EA23E /* HomeViewModel.swift */,
+				C7061A082C1D817B005EA23E /* Main.storyboard */,
+				C7061A0B2C1D817C005EA23E /* Assets.xcassets */,
+				C7061A0D2C1D817C005EA23E /* LaunchScreen.storyboard */,
+			);
+			path = ElPortavozTV;
+			sourceTree = "<group>";
+		};
+		C7061A212C1D8293005EA23E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C7061A152C1D828D005EA23E /* BaseViewController.swift */,
+				C7061A182C1D828D005EA23E /* CollectionViewSelectionDelegate.swift */,
+				C7061A162C1D828D005EA23E /* Extensions.swift */,
+				C7061A222C1D847C005EA23E /* GlobalModels.swift */,
+				C7061A1A2C1D828D005EA23E /* FeedModels.swift */,
+				C7061A192C1D828D005EA23E /* NetworkManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C7061A332C1D85C3005EA23E /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				C7061A282C1D85C3005EA23E /* DisplayableCollectionView.swift */,
+				C7061A2C2C1D85C3005EA23E /* HomeSectionCell.swift */,
+				C7061A2E2C1D85C3005EA23E /* ImageCollectionCell.swift */,
+				C7061A302C1D85C3005EA23E /* SectionedList.swift */,
+				C7061A322C1D85C3005EA23E /* SeriesEpisodeCell.swift */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		C75CEFDD979DA957D3E52AC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E9509B65A1420032CEE4181 /* Pods-ElPortavozTV.debug.xcconfig */,
+				69CE4E8D820954058604D0CE /* Pods-ElPortavozTV.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD140F2837F27423C3F52CE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C717657A16BE4E417FB24F81 /* Pods_ElPortavozTV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7061A002C1D817B005EA23E /* ElPortavozTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7061A122C1D817C005EA23E /* Build configuration list for PBXNativeTarget "ElPortavozTV" */;
+			buildPhases = (
+				869D4C6B8E59F2A483C42FDC /* [CP] Check Pods Manifest.lock */,
+				C70619FD2C1D817B005EA23E /* Sources */,
+				C70619FE2C1D817B005EA23E /* Frameworks */,
+				C70619FF2C1D817B005EA23E /* Resources */,
+				FF3A7541BE81820C79ECF423 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElPortavozTV;
+			productName = ElPortavozTV;
+			productReference = C7061A012C1D817B005EA23E /* ElPortavozTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C70619F92C1D817B005EA23E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C7061A002C1D817B005EA23E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = C70619FC2C1D817B005EA23E /* Build configuration list for PBXProject "ElPortavozTV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C70619F82C1D817B005EA23E;
+			productRefGroup = C7061A022C1D817B005EA23E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7061A002C1D817B005EA23E /* ElPortavozTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C70619FF2C1D817B005EA23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7061A0C2C1D817C005EA23E /* Assets.xcassets in Resources */,
+				C7061A0F2C1D817C005EA23E /* Base in Resources */,
+				C7061A0A2C1D817B005EA23E /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		869D4C6B8E59F2A483C42FDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElPortavozTV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF3A7541BE81820C79ECF423 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElPortavozTV/Pods-ElPortavozTV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElPortavozTV/Pods-ElPortavozTV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElPortavozTV/Pods-ElPortavozTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C70619FD2C1D817B005EA23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7061A1E2C1D828D005EA23E /* CollectionViewSelectionDelegate.swift in Sources */,
+				C7061A272C1D856D005EA23E /* HomeViewModel.swift in Sources */,
+				C7061A342C1D85C3005EA23E /* DisplayableCollectionView.swift in Sources */,
+				C7061A252C1D84B5005EA23E /* HomeViewController.swift in Sources */,
+				C7061A382C1D85C3005EA23E /* HomeSectionCell.swift in Sources */,
+				C7061A3E2C1D85C3005EA23E /* SeriesEpisodeCell.swift in Sources */,
+				C7061A202C1D828D005EA23E /* FeedModels.swift in Sources */,
+				C7061A3C2C1D85C3005EA23E /* SectionedList.swift in Sources */,
+				C7061A3A2C1D85C3005EA23E /* ImageCollectionCell.swift in Sources */,
+				C7061A1F2C1D828D005EA23E /* NetworkManager.swift in Sources */,
+				C7061A232C1D847C005EA23E /* GlobalModels.swift in Sources */,
+				C7061A052C1D817B005EA23E /* AppDelegate.swift in Sources */,
+				C7061A1B2C1D828D005EA23E /* BaseViewController.swift in Sources */,
+				C7061A1C2C1D828D005EA23E /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7061A082C1D817B005EA23E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7061A092C1D817B005EA23E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7061A0D2C1D817C005EA23E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7061A0E2C1D817C005EA23E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7061A102C1D817C005EA23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.4;
+			};
+			name = Debug;
+		};
+		C7061A112C1D817C005EA23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7061A132C1D817C005EA23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E9509B65A1420032CEE4181 /* Pods-ElPortavozTV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElPortavozTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		C7061A142C1D817C005EA23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69CE4E8D820954058604D0CE /* Pods-ElPortavozTV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElPortavozTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C70619FC2C1D817B005EA23E /* Build configuration list for PBXProject "ElPortavozTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7061A102C1D817C005EA23E /* Debug */,
+				C7061A112C1D817C005EA23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7061A122C1D817C005EA23E /* Build configuration list for PBXNativeTarget "ElPortavozTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7061A132C1D817C005EA23E /* Debug */,
+				C7061A142C1D817C005EA23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C70619F92C1D817B005EA23E /* Project object */;
+}
