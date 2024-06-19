@@ -34,10 +34,6 @@ class CollectionViewSelectionDelegate: NSObject, UICollectionViewDelegate, UICol
 
             numberOfCells = 2.03
         }
-        
-        if UIDevice.isTV
-        {
-//            itemSpacing = 10
             if let flowLayout = collectionViewLayout as? UICollectionViewFlowLayout, flowLayout.scrollDirection == .horizontal
             {
                 numberOfCells = 3.5
@@ -47,11 +43,6 @@ class CollectionViewSelectionDelegate: NSObject, UICollectionViewDelegate, UICol
             {
                 numberOfCells = 3
             }
-        }
-        else if UIDevice.isPad
-        {
-            numberOfCells = 4
-        }
         let width = collectionView.frame.width - ((itemSpacing * numberOfCells - 1 ) + insets)
         let cellWidth = floor(width/numberOfCells)
         let size = CGSize(width: cellWidth, height: cellWidth/2)
